@@ -1,0 +1,45 @@
+
+<ion-header>
+  <ion-navbar color="primary">
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="top-slider-container">
+    <ion-slides (ionSlideDidChange)="slideChanged()" [speed]="1000" [autoplay]="2000" [loop]="true" [pager]="true">
+      <ion-slide *ngFor="let slide of topSlides">
+        <div class="tours-desc">
+          <div class="card-title">{{pageTitle}}</div>
+        </div>
+        <img src="../assets/imgs/{{slide.img}}">
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <div class="tour-nav">
+    <ul class="tabs">
+      <li class="tab" *ngFor="let tourTab of tourInfoTabs; let i=index">
+        <a [ngClass]="{'active':i==selectedTab}" (click)="setSelectedTab(i,tourTab)">{{tourTab.title}}</a>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="selectedTab == 0; else highlights">
+    <ion-card class="package-cards" *ngFor="let package of packages; let i=index;" (click)="goToPackageDetails(package.packageId)">
+      <div class="package">
+        <div class="package-desc">
+          <div class="content">{{package.name}}</div>
+        </div>
+      </div>
+    </ion-card>
+  </div>
+  <ng-template #highlights>
+    <div class="highlights">
+      <div class="header">
+
+      </div>
+      <div class="content">
+        <div class="enquiry-btn-wrapper">
+          <button type="submit" ion-button (click)="openEnquiryForm()">Enquiry for this Package</button>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</ion-content>

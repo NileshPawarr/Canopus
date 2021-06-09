@@ -1,0 +1,56 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            {{pageTitle}} Enquiry
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="enquiry-form">
+    <div class="enquiry-overlay"></div>
+    <img src="../assets/imgs/enquiry-bg.jpg" />
+    <form [formGroup]="enquiryForm" (ngSubmit)="submitForm()">
+        <ion-list>
+
+            <ion-item [ngClass]="{'error' : enquiryForm.get('name').hasError('required') && enquiryForm.get('name').touched && !enquiryForm.get('name').focused}">
+                <ion-label floating>Name *</ion-label>
+                <ion-input type="text" formControlName="name"></ion-input>
+            </ion-item>
+
+            <ion-item [ngClass]="{'error' : (enquiryForm.get('phnNum').hasError('required') || enquiryForm.get('phnNum').hasError('minlength') || enquiryForm.get('phnNum').hasError('maxlength'))
+            && enquiryForm.get('phnNum').touched && !enquiryForm.get('phnNum').focused}">
+                <ion-label floating>Mobile Number *</ion-label>
+                <ion-input type="tel" formControlName="phnNum"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label floating>Email</ion-label>
+                <ion-input type="email"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label floating>City</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label floating>No. of Persons</ion-label>
+                <ion-input type="number" [min]="0"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label floating>Travel Date</ion-label>
+                <ion-datetime displayFormat="DD MMM YYYY"></ion-datetime>
+            </ion-item>
+
+            <ion-item>
+                <ion-label floating>More Details</ion-label>
+                <ion-textarea></ion-textarea>
+            </ion-item>
+
+            <div class="enquiry-btn-wrapper">
+                <button type="submit" ion-button [disabled]="!enquiryForm.valid">Submit</button>
+            </div>
+        </ion-list>
+    </form>
+</ion-content>

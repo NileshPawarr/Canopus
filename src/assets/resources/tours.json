@@ -1,0 +1,46 @@
+{
+    "tours" : [
+    {
+      "title": "Educational Tours",
+      "description": "",
+      "img": "educational.jpg",
+      "state": "Educational",
+      "id": 0
+    },
+    {
+      "title": "Industrial Visits",
+      "description": "",
+      "img": "singapore_new.jpg",
+      "state": "Industrial",
+      "id": 1
+    },
+    {
+      "title": "Nature Tours",
+      "description": "",
+      "img": "domestic.jpg",
+      "state": "Nature",
+      "id": 2
+    },
+    {
+      "title": "Sports Tours",
+      "description": "",
+      "img": "domestic.jpg",
+      "state": "Sports",
+      "id": 3
+    },
+    {
+      "title": "Language Tours",
+      "description": "",
+      "img": "singapore_new.jpg",
+      "state": "Language",
+      "id": 4
+    },
+    {
+      "title": "Service Learning Tours",
+      "description": "",
+      "img": "domestic.jpg",
+      "state": "ServiceLearning",
+      "id": 5
+    }
+]
+}

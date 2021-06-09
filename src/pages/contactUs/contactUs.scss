@@ -1,0 +1,28 @@
+contact-us{
+
+    .contact-card{
+        height: calc(100% - 265px);
+        padding: 12px;
+        .content-wrapper{
+            margin:10px;
+        }
+        .contact-container,
+        .mail-container,
+        .phone-container{
+            margin-bottom: 30px;
+            
+        }
+        a{
+            color: #3bbfad;
+            text-decoration: none;
+        }
+    }
+    .icon-wrapper {
+        display: flex;
+        align-items: center;
+
+        ion-icon {
+            margin-right: 10px;
+        }
+    }
+}

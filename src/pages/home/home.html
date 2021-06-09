@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Canopus Holidays</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content id="page1">
+  <div class="top-slider-container">
+    <ion-slides (ionSlideDidChange)="slideChanged()" [speed]="1000" [autoplay]="2000" [loop]="true" [pager]="true">
+      <ion-slide *ngFor="let slide of topSlides">
+          <div class="tours-desc">
+              <div class="card-title">Title goes here</div>
+            </div>
+        <img src="../assets/imgs/{{slide.img}}">
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <ion-card class="tour-cards" *ngFor="let tour of tours; let i=index;" (click)="goToPage(tour)">
+    <div class="tours-overlay tours-overlay-{{i}}"></div>
+    <img src="../assets/imgs/{{tour.img}}" />
+    <div class="tours-desc">
+      <div class="card-title">{{tour.title}}</div>
+    </div>
+  </ion-card>
+
+  <!-- <ion-title class="canopus-story-container">My Canopus Story!</ion-title>
+  <div class="bottom-slider-container">
+    <div class="bottom-slider">
+      <ion-slides (ionSlideDidChange)="slideChanged()" [autoplay]="3000" [speed]="1000" [loop]="true" [pager]="true">
+        <ion-slide *ngFor="let testimony of clientTestimonial">
+          <img src="../assets/imgs/{{testimony.img}}">
+          <div>{{testimony.description}}</div>
+        </ion-slide>
+      </ion-slides>
+    </div>
+  </div> -->
+</ion-content>

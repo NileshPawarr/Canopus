@@ -1,0 +1,25 @@
+package-list{
+    .itinerary-cards{
+        padding:10px;
+        .sub-heading{
+            font-size: 15px;
+            font-weight: bold;
+            color: #a91c1c;
+            margin-top: 10px;
+        }
+
+        hr {
+            height: 1px;
+        }
+
+        .checked-ul {
+            list-style: none;
+          }
+          
+        .checked-ul  li:before {
+            content: '✓';
+            margin-left: -22px;
+            margin-right: 10px;
+          }
+    }
+}

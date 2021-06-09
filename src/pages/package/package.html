@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            {{currentItinerary.destination}}
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="itinerary-cards" *ngFor="let day of currentItinerary.departures.itinerary; let i=index;">
+
+        <h2 class="itinerary-title" style="text-align: center">Day{{day.day}}: {{day.heading}}</h2>
+        <hr style="width:80%" />
+        <div class="itinerary-desc" [innerHTML]="day.description"> </div>
+    </ion-card>
+</ion-content>

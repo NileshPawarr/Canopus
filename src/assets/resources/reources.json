@@ -1,0 +1,186 @@
+{
+    
+    "data": {
+      "destination": "Exciting America with Caneda - 2017",
+      "destinationid": "desti12121",
+      "tourhighlights": {
+        "citiesvisited": "WASHINGTON DC, NEW YORK, NIAGARA FROM CANADA SIDE",
+        "siteseeing": {
+          "placesWithFeeIncluded": [
+            "New York:one World Observatory, Statue of liberty",
+            "TORONTO: CN Towers",
+            "OTTAWA:Threshold Iland"
+          ],
+          "placesWithFeeExtra": [
+            "New York:one World Observatory, Statue of liberty",
+            "TORONTO: CN Towers",
+            "OTTAWA:Threshold Iland"
+          ]
+        },
+        "citytours": "Washington DC, New York, Toronto, Ottawa, Quebec",
+        "images": [
+          "url",
+          "url",
+          "url"
+        ]
+      },
+      "deapartures": [
+        {
+          "dataofdeparture": "2017/04/03",
+          "itinerary": [
+            {
+              "day": "1",
+              "heading": "Arrival day",
+              "description": "Arrival at airport.",
+              "Meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+              ]
+            },
+            {
+              "day": "2",
+              "heading": "Air & Space Museum And City Tour",
+              "description": "Breakfast at Hotel George Washington, the first president and namesake of the city, chose this city for the Capital of the US and appointed three commissioners to help prepare for the arrival of the new government in 1800",
+              "Meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+              ]
+            }
+          ],
+          "flights": [
+            {
+              "source": "Bangalore",
+              "destination": "Washington DC",
+              "details": "Qatar Airlines 8745"
+            },
+            {
+              "source": "New York",
+              "destination": "Toronto",
+              "details": "Qatar Airlines 8745"
+            }
+          ],
+          "hotels": [
+            {
+              "day": "1",
+              "city": "Washington DC",
+              "hotel": "Hotel Regency",
+              "stars": "3",
+              "breakfast": "Yes",
+              "others": "description of other services"
+            },
+            {
+              "day": "2",
+              "city": "New York",
+              "hotel": "Marriot",
+              "stars": "3",
+              "breakfast": "Yes",
+              "others": "description of other services"
+            }
+          ],
+          "visarequirements": [
+            "USA",
+            "Canada"
+          ],
+          "comment": "site to link to static visa pages based on country name",
+          "tourcost": {
+            "DoubleSharing": {
+              "adult": 100000,
+              "childwithbed": 20000,
+              "childwithoutbed": 15000
+            },
+            "TripleSharing": {
+              "adult": 160000,
+              "childwithbed": 20000,
+              "childwithoutbed": 15000
+            },
+            "SingleSuppliment": {
+              "adult": 10000
+            },
+            "reductionIfVisaPresent": {
+              "value": 100000
+            }
+          }
+        },
+        {
+          "dataofdeparture": "2017/04/15",
+          "itinerary": [
+            {
+              "day": "1",
+              "heading": "Arrival day",
+              "description": "Arrival at airport.",
+              "Meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+              ]
+            },
+            {
+              "day": "2",
+              "heading": "Air & Space Museum And City Tour",
+              "description": "Breakfast at Hotel George Washington, the first president and namesake of the city, chose this city for the Capital of the US and appointed three commissioners to help prepare for the arrival of the new government in 1800",
+              "Meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+              ]
+            }
+          ],
+          "flights": [
+            {
+              "source": "Bangalore",
+              "destination": "Washington DC",
+              "details": "Qatar Airlines 8745"
+            },
+            {
+              "source": "New York",
+              "destination": "Toronto",
+              "details": "Qatar Airlines 8745"
+            }
+          ],
+          "hotels": [
+            {
+              "day": "1",
+              "city": "Washington DC",
+              "hotel": "Hotel Regency",
+              "stars": "3",
+              "breakfast": "Yes",
+              "others": "description of other services"
+            },
+            {
+              "day": "2",
+              "city": "New York",
+              "hotel": "Marriot",
+              "stars": "3",
+              "breakfast": "Yes",
+              "others": "description of other services"
+            }
+          ],
+          "visarequirements": [
+            "USA",
+            "Canada"
+          ],
+          "comment": "site to link to static visa pages based on country name",
+          "tourcost": {
+            "DoubleSharing": {
+              "adult": 100000,
+              "childwithbed": 20000,
+              "childwithoutbed": 15000
+            },
+            "TripleSharing": {
+              "adult": 160000,
+              "childwithbed": 20000,
+              "childwithoutbed": 15000
+            },
+            "SingleSuppliment": {
+              "adult": 10000
+            },
+            "reductionIfVisaPresent": {
+              "value": 100000
+            }
+          }
+        }
+      ]
+    }
+  }

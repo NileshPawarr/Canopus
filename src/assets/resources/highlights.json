@@ -1,0 +1,185 @@
+[
+    {
+        "destinationId":"101",
+        "title": "Amusement Park",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Bangkok, Pattaya, Coral Island, Singapore, Sentosa Island",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "102",
+        "title":"Australia",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Sydney, Brisbane, Cairns",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "103",
+        "title":"Broadway Theatre Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "New Jersey, Broadway, New York",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "104",
+        "title":"CERN Itinerary",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Geneva, Cern, Engel burg, Zurich, Frankfurt",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "105",
+        "title":"China Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Beijing",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "106",
+        "title":"Dubai Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Dubai,Abu Dhabi",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "107",
+        "title":"Greece Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Athens, Delphi",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "108",
+        "title":"Hong Kong & Macau With Star Cruise Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Hong Kong, Macau",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "109",
+        "title":"Istanbul With Turkey Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Istanbul, Canakkale, Pergamon, Kusadasi, Ephesus, Pamukkale, Konya, Cappadocia, Ankara",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "110",
+        "title":"Italy Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Milan, Padova, Venice, Florence, Pisa, Rome, Naples",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "111",
+        "title":"New Zealand The New Way Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Auckland, Waitomo, Rotorua, Wellington, Picton, Kaikoura, Christchurch, Queenstown, Te Anau, Dunedin",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "112",
+        "title":"Northern Lights Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Anchorage, Las Vegas, Grand Canyon, Los Angeles, San Francisco",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "113",
+        "title":"Rome - London - Paris Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Rome, London, Paris",
+        "images": [
+        ]
+    },
+    {
+        "destinationId": "114",
+        "title":"Scandinavia - The Land Of Santa Claus Excursion",
+        "siteSeeing": {
+            "placesWithFeeIncluded": [
+            ],
+            "placesWithFeeExtra": [
+            ]
+        },
+        "cityTours": "Helsinki, Rovaniemi, Stockholm, Oslo, Bergen",
+        "images": [
+        ]
+    }
+
+]

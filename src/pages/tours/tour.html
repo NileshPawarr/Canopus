@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <!--     <ion-buttons left>
+      <button ion-button icon-only (click)="goBack()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons> -->
+    <ion-title>
+      {{pageTitle}} Tours
+    </ion-title>
+  </ion-navbar>
+  <div class="tour-nav">
+    <ul class="tabs">
+      <li class="tab" *ngFor="let tourTab of tourTabs; let i=index">
+        <a [ngClass]="{'active':i==selectedTab}" (click)="setSelectedTab(i,tourTab)">{{tourTab.title}}</a>
+      </li>
+    </ul>
+
+  </div>
+</ion-header>
+
+<ion-content>
+  <ion-card class="tour-cards" *ngFor="let tour of selectedTours; let i=index;" (click)="goToPage(tour)">
+    <div class="tours-overlay tours-overlay-{{i}}"></div>
+    <img src="../assets/imgs/{{tour.img}}" />
+    <div class="tours-desc">
+      <div class="card-title">{{tour.name}}</div>
+    </div>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,466 @@
+{
+    "domestic": [
+        {
+            "name": "Kerala",
+            "locationId": "1001",
+            "tourIds": []
+        }
+    ],
+    "international": [
+        {
+            "name": "Thailand",
+            "locationId": "100",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Australia",
+            "locationId": "101",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "New Jersey",
+            "locationId": "102",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Switzerland",
+            "locationId": "103",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "China",
+            "locationId": "104",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Dubai",
+            "locationId": "105",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Greece",
+            "locationId": "106",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Turkey",
+            "locationId": "107",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Italy",
+            "locationId": "108",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "New Zealand",
+            "locationId": "109",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Alaska",
+            "locationId": "110",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Las Vegas",
+            "locationId": "111",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "England",
+            "locationId": "112",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "France",
+            "locationId": "113",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Finland",
+            "locationId": "114",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Norway",
+            "locationId": "115",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Malaysia",
+            "locationId": "116",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Sri Lanka",
+            "locationId": "117",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Germany",
+            "locationId": "119",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Egypt",
+            "locationId": "120",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "South Africa",
+            "locationId": "121",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Florida",
+            "locationId": "122",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "New York",
+            "locationId": "123",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "South Africa",
+            "locationId": "124",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Texas",
+            "locationId": "125",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Japan",
+            "locationId": "126",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Spain",
+            "locationId": "127",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Ecuador",
+            "locationId": "128",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Peru",
+            "locationId": "129",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Nicaragua",
+            "locationId": "130",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Dominican Republic",
+            "locationId": "131",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Tanzania",
+            "locationId": "132",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "India",
+            "locationId": "133",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Panama",
+            "locationId": "134",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Sweden",
+            "locationId": "135",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "California",
+            "locationId": "136",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Nevada",
+            "locationId": "137",
+            "tourIds": [],
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Georgia US",
+            "locationId": "138",
+            "imageName": "",
+            "highlights": [
+                {
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
